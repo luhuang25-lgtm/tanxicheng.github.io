@@ -2,4 +2,4 @@
 
 这是谭希丞的个人介绍网站，包含教育背景、实习经历、代表项目、荣誉技能、联系方式与 AI 分身对话入口。
 
-访问地址：https://luhuang25-lgtm.github.io/
+访问地址：https://tanxicheng.com/
