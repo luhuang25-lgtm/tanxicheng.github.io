@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luhuang25-lgtm.github.io/sitemap.xml
+Sitemap: https://tanxicheng.com/sitemap.xml
