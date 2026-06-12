@@ -1,0 +1,9 @@
+{
+  "name": "tan-xicheng-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check script.js && node --input-type=module --check < api/chat.js"
+  }
+}
