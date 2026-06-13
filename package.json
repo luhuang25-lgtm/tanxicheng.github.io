@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "node --input-type=module --check < api/chat.js"
+    "check": "node --check src/fallback.js && node --input-type=module --check < api/chat.js"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
