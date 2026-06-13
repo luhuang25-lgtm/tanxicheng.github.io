@@ -1,9 +1,19 @@
 {
   "name": "tan-xicheng-personal-site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check script.js && node --input-type=module --check < api/chat.js"
-  }
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node --input-type=module --check < api/chat.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {}
 }
