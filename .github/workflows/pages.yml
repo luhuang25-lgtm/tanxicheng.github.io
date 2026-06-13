@@ -35,6 +35,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy static assets
+        run: |
+          mkdir -p dist/assets
+          cp assets/tan-xicheng.jpg dist/assets/tan-xicheng.jpg
+          cp assets/tan-xicheng-portrait.jpg dist/assets/tan-xicheng-portrait.jpg
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
